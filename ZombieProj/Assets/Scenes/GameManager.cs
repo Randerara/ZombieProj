@@ -13,6 +13,8 @@ public class GameManager : MonoBehaviour
     private InputAction left, right, jump;
     private int selectedIndex = 0;
     public TMP_Text timerText;
+    public TMP_Text scoreText;
+    private float score = 0;
     private float time = 0;
     
     
